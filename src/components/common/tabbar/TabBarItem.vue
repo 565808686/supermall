@@ -46,7 +46,7 @@
   .tab-bar-item {
     flex: 1;
     text-align: center;
-    height: 49px;
+    height: 60px;
     font-size: 14px;
   }
 
@@ -55,6 +55,6 @@
     height: 24px;
     margin-top: 3px;
     vertical-align: middle;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
   }
 </style>

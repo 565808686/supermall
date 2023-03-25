@@ -1,5 +1,5 @@
 import {request} from "./request";
-
+// 首页所有的请求封装在这个地方
 export function getHomeMultidata() {
   return request({
     url: '/home/multidata'
