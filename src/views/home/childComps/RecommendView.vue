@@ -27,7 +27,7 @@ export default {
   width: 100%;
   justify-content: space-around;
   text-align: center;
-  margin-top: 2px;
+  margin-top: 12px;
  }
  .recommend-view img{
   width: 65px;

@@ -22,6 +22,109 @@
     </a>
    </div> -->
    <recommend-view :recommends="recommends"></recommend-view>
+   <feature-view></feature-view>
+   <Ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+   </Ul>
   </div>
 </template>
 
@@ -31,6 +134,7 @@ import {getHomeMultidata} from 'network/home.js'
 import {Swiper, SwiperItem} from 'components/common/swiper/index'
 import HomeSwiper from './childComps/HomeSwiper.vue'
 import RecommendView from './childComps/RecommendView.vue'
+import FeatureView from './childComps/FeatureView.vue'
 // import Swiper from '../../components/common/swiper/Swiper.vue'
 // import SwiperItem from '../../components/common/swiper/SwiperItem.vue'
   export default {
@@ -44,7 +148,8 @@ import RecommendView from './childComps/RecommendView.vue'
     components:{
       NavBar,
       HomeSwiper,
-      RecommendView
+      RecommendView,
+      FeatureView
       //  Swiper, 
       //  SwiperItem
        
@@ -60,7 +165,15 @@ import RecommendView from './childComps/RecommendView.vue'
 </script>
 
 <style>
+/* .home{
+ padding-top: 100px;
+} */
 .home-nav{
+   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
   background-color: pink;
   color: aliceblue;
 }
